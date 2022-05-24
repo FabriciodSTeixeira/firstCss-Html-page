@@ -1,0 +1,62 @@
+*, ::before, :after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    cursor: inherit;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.recipes{
+    position: relative;
+    left: 25%;
+    top: 50%;
+    margin: 55px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    text-transform: lowercase;
+    color: #FFA000;
+}
+
+.firstRow{
+    display: flex;
+    justify-content: center;
+}
+.recipesText{
+    position: relative;
+    text-align: center;
+}
+
+.firstRow picture{
+    margin: 30px;
+}
+
+.buttons{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    width: 185px;
+    height: 48px;
+    left: 199px;
+    top: 800px;
+
+    margin: 10px;
+
+    background: #176902;
+}
