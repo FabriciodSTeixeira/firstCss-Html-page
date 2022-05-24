@@ -27,12 +27,13 @@ header{
     display: flex;
     justify-content: center;
     top: 28px;
+    flex-wrap: wrap;
 }
 
 .menu{
     display: flex;
     position: relative;
-
+    flex-wrap: wrap;
     
     justify-content: center;
     height: 48px;
